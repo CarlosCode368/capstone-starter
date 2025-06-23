@@ -34,7 +34,8 @@ public class CategoriesController {
     public ResponseEntity<Category> getById(@PathVariable int id) {
         Category category = categoryDao.getById(id);
         if (category == null) {
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body(new Category(-1, "Not Found", "Category not found"));
         }
         return ResponseEntity.ok(category);
     }
