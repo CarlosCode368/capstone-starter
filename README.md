@@ -6,6 +6,14 @@ Fix all the bugs you can identify.
 
 Pass the tests in Postman. 
 
+## Features of API
+
+User Authorization
+
+User is able to add item to his/her cart. 
+
+Sort Inventory in category
+
 ## Screenshots 
 
 ![Controllers](Cap3ImagesControllers.jpg)
