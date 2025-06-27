@@ -16,7 +16,7 @@ Sort Inventory in category
 
 ## Screenshots 
 
-![Controllers](Cap3ImagesControllers.jpg)
+![Controllers](Cap3Images/Controllers.jpg)
 ![Controllers](Cap3Images/Controllercode.jpg)
 ![Website](Cap3Images/easyshop.jpg)
 ![Categories](Cap3Images/categories1.jpg)
