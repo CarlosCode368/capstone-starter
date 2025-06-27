@@ -19,6 +19,10 @@ Sort Inventory in category
 ![Controllers](Cap3Images/Controllers.jpg)
 ![Controller Code](Cap3Images/Controllercode.jpg)
 ![Website](Cap3Images/easyshop.jpg)
+
+Category Fix
 ![Categories 1](Cap3Images/categories1.jpg)
 ![Categories 2](Cap3Images/categories2.jpg)
+
+Test Result
 ![Test Pass](Cap3Images/Testpass.jpg)
