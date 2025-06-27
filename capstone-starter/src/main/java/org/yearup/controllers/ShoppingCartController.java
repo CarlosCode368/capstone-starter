@@ -29,7 +29,7 @@ public class ShoppingCartController {
     private final ProductDao productDao;
 
 
-    // each method in this controller requires a Principal object as a parameter
+
     @Autowired
     public ShoppingCartController(ShoppingCartDao shoppingCartDao, UserDao userDao, ProductDao productDao) {
         this.shoppingCartDao = shoppingCartDao;
@@ -40,11 +40,11 @@ public class ShoppingCartController {
     @GetMapping
     public ShoppingCart getCart(Principal principal) {
         try {
-            // get the currently logged in username
+
             String userName = principal.getName();
-            // find database user by userId
+
             User user = userDao.getByUserName(userName);
-            // use the shoppingcartDao to get all items in the cart and return the cart
+
             return shoppingCartDao.getCartByUserId(user.getId());
         } catch (Exception e) {
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");

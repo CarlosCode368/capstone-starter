@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class ShoppingCart
 {
-    private int userId;  // <-- add this field
+    private int userId;
 
     private Map<Integer, ShoppingCartItem> items = new HashMap<>();
 
